@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>LOGIN TO CONNECT</title>
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+<!-- Droid Serif,Source Sans Pro,Roboto,PIE.htc -->
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/caviardreams.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/home-style.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+<div id="wrapper">
+	
+	<!-- Login Starts -->
+	<div class="login">
+	<a class="logo2" href="#"><img src="images/logo.png" width="151" height="54" alt="xChop"></a>
+	<div class="det">
+	<form id="verifyForm" action="https://www.xhtmlchop.com/verify.php" method="post" onsubmit="return validation(&#39;verify&#39;)">
+	<h4>LOG IN</h4>
+	<ul>
+	<li>
+	<label>Email address</label>
+	<input type="text" class="inputtxt" value="" id="name" name="email" onfocus="this.select()" onblur="this.value=!this.value?&#39;&#39;:this.value;">
+	<div id="name_error" class="error_msg"></div>
+	</li>
+	<li>
+	<label>Password&nbsp;&nbsp;&nbsp; <a href="javascript:void(0)" id="forgotPasswordLink">Forgot password?</a></label>
+	<input type="password" class="inputtxt" value="" id="password" onclick="this.value=&#39;&#39;;" name="password" onfocus="this.select()" onblur="this.value=!this.value?&#39;&#39;:this.value;">
+	<div id="password_error" class="error_msg"></div>
+	</li>
+	</ul>
+	<b><input name="" type="checkbox" value=""> Remember me</b>
+	<button id="button">Log in</button>
+	<i class=" clear_0"></i>
+	</form>
+	<form id="forgotPassordForm" action="https://www.xhtmlchop.com/forgetpass.php" method="post" onsubmit="return validation(&#39;forgotpass&#39;)" style="display:none;">
+	<h4>FORGOT &nbsp;PASSWORD</h4>
+	<ul>
+	<li>
+	<label>Please enter your email</label>
+	<input type="text" class="inputtxt" value="" id="email" name="forgotPassEmail" onclick="this.value=&#39;&#39;;" onfocus="this.select()" onblur="this.value=!this.value?&#39;&#39;:this.value;">
+	<div id="email_error" class="error_msg">
+	</div>
+	</li>
+	</ul>
+	<button id="forgotPassButton">Submit</button>
+	<div class="error_msg_2"><label><a href="javascript:void(0)" id="returnToLoginLink">Return to login</a></label></div>
+	<i class=" clear_0"></i>
+	</form>
+	</div>
+	<ul class="trm">
+	<li><a href="http://www.xhtmlchop.com/terms_of_use.html">Terms of Use</a></li>
+	<li><a href="http://www.xhtmlchop.com/privacy_policy.html">Privacy Policy</a></li>
+	</ul>
+	<i class="clear"></i>
+	</div>
+
+</div>
+<script>
+</script>
+</body>
+</html>

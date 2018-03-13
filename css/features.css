@@ -1,0 +1,132 @@
+.banner_top {
+width: 100%;
+text-align: center;
+}
+.inbanner.feature_ban {
+overflow: hidden;
+height: 250px;
+}
+.inbanner.feature_ban h1 {
+padding-bottom: 35px;
+padding-top: 50px;
+font-size: 80px;
+}
+
+.banner_top h1 {
+padding: 30px 0;
+
+font-size: 60px;
+line-height: 45px;
+font-family: 'Droid Serif', sans-serif;
+color: #fff;
+text-align: center;
+font-weight: 100;
+position: relative;
+}
+.banner{
+	background: rgba(69, 195, 155, 1);
+	margin: 0px;
+	height: 350px;
+}
+.features_list {
+background: rgba(147, 172, 240, .6);
+width: 100%;
+padding: 80px 0;
+}
+.features_list ul li {
+width: 100%;
+float: left;
+display: block;
+padding: 0 0 80px;
+}
+.features_list ul li span.icon_1 {
+width: 39px;
+height: 43px;
+background: url(../images/sprite.png) no-repeat;
+display: inline-block;
+margin: 20px 0 0;
+}
+.features_list ul li span.feat_title {
+width: 28%;
+float: left;
+font-size: 24px;
+line-height: 30px;
+font-family: rooneybold;
+color: #252d30;
+padding: 8px 0 0;
+}
+.features_list ul {
+width: 100%;
+float: left;
+display: block;
+margin: 0;
+}
+.features_list ul li span.feat_icon {
+width: 12%;
+float: left;
+display: block;
+text-align: center;
+}
+.features_list ul li span.feat_title em {
+display: block;
+font-style: normal;
+}
+.features_list ul li span.feat_text {
+width: 55%;
+float: left;
+border-left: 1px solid #f0d5d6;
+padding: 5px 0 5px 20px;
+font-size: 16px;
+line-height: 30px;
+font-weight: 400;
+color: #543030;
+}
+.features_list ul li span.icon_2 {
+width: 43px;
+height: 22px;
+background: url(../images/sprite.png) -47px 0 no-repeat;
+display: inline-block;
+margin: 20px 0 0;
+}
+.features_list ul li span.icon_3 {
+width: 41px;
+height: 43px;
+background: url(../images/sprite.png) -101px 0 no-repeat;
+display: inline-block;
+margin: 20px 0 0;
+}
+.features_list ul li span.icon_4 {
+width: 43px;
+height: 42px;
+background: url(../images/sprite.png) -152px 0 no-repeat;
+display: inline-block;
+margin: 20px 0 0;
+}
+.features_list ul li span.icon_5 {
+width: 23px;
+height: 42px;
+background: url(../images/sprite.png) -204px 0 no-repeat;
+display: inline-block;
+margin: 20px 0 0;
+}
+.features_list ul li span.icon_6 {
+width: 31px;
+height: 42px;
+background: url(../images/sprite.png) -236px 0 no-repeat;
+display: inline-block;
+margin: 20px 0 0;
+}
+.features_list ul li span.icon_7 {
+width: 43px;
+height: 32px;
+background: url(../images/sprite.png) -276px 0 no-repeat;
+display: inline-block;
+margin: 20px 0 0;
+}
+.features_list ul li span.icon_8 {
+width: 43px;
+height: 40px;
+background: url(../images/sprite.png) -329px 0 no-repeat;
+display: inline-block;
+margin: 20px 0 0;
+}
